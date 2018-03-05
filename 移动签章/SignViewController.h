@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SignViewController : UIViewController
-
+@property(nonatomic,strong) UIImage * signImage;
 @end

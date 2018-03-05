@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+
+target “移动签章” do
+
+pod "PPSSignatureView"
+end

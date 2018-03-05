@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2F3AA29F9BA45D76ED116C /* libPods-移动签章.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB1A8F5F088538B810EFC8C /* libPods-移动签章.a */; };
 		B118EAB62016EA4900608D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B118EAB52016EA4900608D08 /* AppDelegate.m */; };
 		B118EAB92016EA4900608D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B118EAB82016EA4900608D08 /* ViewController.m */; };
 		B118EABC2016EA4900608D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B118EABA2016EA4900608D08 /* Main.storyboard */; };
 		B118EABE2016EA4900608D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B118EABD2016EA4900608D08 /* Assets.xcassets */; };
 		B118EAC12016EA4900608D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B118EABF2016EA4900608D08 /* LaunchScreen.storyboard */; };
 		B118EAC42016EA4900608D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B118EAC32016EA4900608D08 /* main.m */; };
+		B11F6EF320171A1000C9F8BE /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F6EF220171A1000C9F8BE /* SignViewController.m */; };
+		B11F6EF620172DB600C9F8BE /* SignaturePDF.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F6EF520172DB600C9F8BE /* SignaturePDF.m */; };
+		B12C7D03201F09A000BEFE35 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12C7D02201F09A000BEFE35 /* logo.jpg */; };
+		B16D52F0202432FF00DC7CBD /* QLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16D52EF202432FF00DC7CBD /* QLPViewController.m */; };
+		B19F54C82023F037004C8997 /* instance.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B19F54C72023F037004C8997 /* instance.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C5AD7880E7D182EF1B6C660 /* Pods-移动签章.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-移动签章.debug.xcconfig"; path = "Pods/Target Support Files/Pods-移动签章/Pods-移动签章.debug.xcconfig"; sourceTree = "<group>"; };
 		B118EAB12016EA4900608D08 /* 移动签章.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "移动签章.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B118EAB42016EA4900608D08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B118EAB52016EA4900608D08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,16 @@
 		B118EAC02016EA4900608D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B118EAC22016EA4900608D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B118EAC32016EA4900608D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B11F6EF120171A1000C9F8BE /* SignViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		B11F6EF220171A1000C9F8BE /* SignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		B11F6EF420172DB600C9F8BE /* SignaturePDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignaturePDF.h; path = "移动签章/SignaturePDF.h"; sourceTree = SOURCE_ROOT; };
+		B11F6EF520172DB600C9F8BE /* SignaturePDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignaturePDF.m; path = "移动签章/SignaturePDF.m"; sourceTree = SOURCE_ROOT; };
+		B12C7D02201F09A000BEFE35 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		B16D52EE202432FF00DC7CBD /* QLPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLPViewController.h; sourceTree = "<group>"; };
+		B16D52EF202432FF00DC7CBD /* QLPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLPViewController.m; sourceTree = "<group>"; };
+		B19F54C72023F037004C8997 /* instance.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = instance.pdf; sourceTree = "<group>"; };
+		CA6674C8B01E9720C0C56B9F /* Pods-移动签章.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-移动签章.release.xcconfig"; path = "Pods/Target Support Files/Pods-移动签章/Pods-移动签章.release.xcconfig"; sourceTree = "<group>"; };
+		DFB1A8F5F088538B810EFC8C /* libPods-移动签章.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-移动签章.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +50,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2F3AA29F9BA45D76ED116C /* libPods-移动签章.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E1498318C279F0687E85E32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB1A8F5F088538B810EFC8C /* libPods-移动签章.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B118EAA82016EA4900608D08 = {
 			isa = PBXGroup;
 			children = (
 				B118EAB32016EA4900608D08 /* 移动签章 */,
 				B118EAB22016EA4900608D08 /* Products */,
+				F4CACB09312C934467A8BBE2 /* Pods */,
+				3E1498318C279F0687E85E32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +86,42 @@
 		B118EAB32016EA4900608D08 /* 移动签章 */ = {
 			isa = PBXGroup;
 			children = (
+				B19F54C72023F037004C8997 /* instance.pdf */,
+				B118EACA2017041D00608D08 /* SignView */,
 				B118EAB42016EA4900608D08 /* AppDelegate.h */,
 				B118EAB52016EA4900608D08 /* AppDelegate.m */,
 				B118EAB72016EA4900608D08 /* ViewController.h */,
 				B118EAB82016EA4900608D08 /* ViewController.m */,
+				B16D52EE202432FF00DC7CBD /* QLPViewController.h */,
+				B16D52EF202432FF00DC7CBD /* QLPViewController.m */,
+				B11F6EF120171A1000C9F8BE /* SignViewController.h */,
+				B11F6EF220171A1000C9F8BE /* SignViewController.m */,
 				B118EABA2016EA4900608D08 /* Main.storyboard */,
 				B118EABD2016EA4900608D08 /* Assets.xcassets */,
+				B12C7D02201F09A000BEFE35 /* logo.jpg */,
 				B118EABF2016EA4900608D08 /* LaunchScreen.storyboard */,
 				B118EAC22016EA4900608D08 /* Info.plist */,
 				B118EAC32016EA4900608D08 /* main.m */,
 			);
 			path = "移动签章";
+			sourceTree = "<group>";
+		};
+		B118EACA2017041D00608D08 /* SignView */ = {
+			isa = PBXGroup;
+			children = (
+				B11F6EF420172DB600C9F8BE /* SignaturePDF.h */,
+				B11F6EF520172DB600C9F8BE /* SignaturePDF.m */,
+			);
+			path = SignView;
+			sourceTree = "<group>";
+		};
+		F4CACB09312C934467A8BBE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C5AD7880E7D182EF1B6C660 /* Pods-移动签章.debug.xcconfig */,
+				CA6674C8B01E9720C0C56B9F /* Pods-移动签章.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B118EAC72016EA4900608D08 /* Build configuration list for PBXNativeTarget "移动签章" */;
 			buildPhases = (
+				04BD5B9AE1CCDDEB0D9617BE /* [CP] Check Pods Manifest.lock */,
 				B118EAAD2016EA4900608D08 /* Sources */,
 				B118EAAE2016EA4900608D08 /* Frameworks */,
 				B118EAAF2016EA4900608D08 /* Resources */,
+				43FE6C9CAD758A5C0C82237B /* [CP] Embed Pods Frameworks */,
+				58B3D787A3B0C7B33B95A281 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +186,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				B118EAC12016EA4900608D08 /* LaunchScreen.storyboard in Resources */,
+				B12C7D03201F09A000BEFE35 /* logo.jpg in Resources */,
+				B19F54C82023F037004C8997 /* instance.pdf in Resources */,
 				B118EABE2016EA4900608D08 /* Assets.xcassets in Resources */,
 				B118EABC2016EA4900608D08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04BD5B9AE1CCDDEB0D9617BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-移动签章-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43FE6C9CAD758A5C0C82237B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-移动签章/Pods-移动签章-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58B3D787A3B0C7B33B95A281 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-移动签章/Pods-移动签章-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B118EAAD2016EA4900608D08 /* Sources */ = {
@@ -144,7 +253,10 @@
 			files = (
 				B118EAB92016EA4900608D08 /* ViewController.m in Sources */,
 				B118EAC42016EA4900608D08 /* main.m in Sources */,
+				B16D52F0202432FF00DC7CBD /* QLPViewController.m in Sources */,
+				B11F6EF620172DB600C9F8BE /* SignaturePDF.m in Sources */,
 				B118EAB62016EA4900608D08 /* AppDelegate.m in Sources */,
+				B11F6EF320171A1000C9F8BE /* SignViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +388,14 @@
 		};
 		B118EAC82016EA4900608D08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C5AD7880E7D182EF1B6C660 /* Pods-移动签章.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN79T3UVP2;
 				INFOPLIST_FILE = "移动签章/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bw.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bw.pp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +403,14 @@
 		};
 		B118EAC92016EA4900608D08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6674C8B01E9720C0C56B9F /* Pods-移动签章.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN79T3UVP2;
 				INFOPLIST_FILE = "移动签章/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bw.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bw.pp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

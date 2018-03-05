@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FC24086B5E8EBBD63734566A510A4D /* Pods-移动签章-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5A73118133043B184BDC75441CE46 /* Pods-移动签章-dummy.m */; };
+		0F6ACC452893F45826FC1F33848E61EF /* PPSSignatureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4175793D10DB988F91623EB9220D478E /* PPSSignatureView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A73911944D5D226B93F94AD342CEE8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CF6ABC3D52AB08585D24E494A9C6CE /* GLKit.framework */; };
+		2964DFDCB3A2DA7C83A731A633195F7C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FA3696AAF9095221AC54D2B276C6AA /* OpenGLES.framework */; };
+		5E21908D963E5E31955B1956B8B1C8F0 /* PPSSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1F670057B8611BE9174727E4801EBA /* PPSSignatureView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70F1258209988021C6113C24B1368FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369F1BECFB2F8F970171C3803B8B72D8 /* Foundation.framework */; };
+		BB9FCC919996288C5F7C2F0AA214D416 /* PPSSignatureView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF4FC8EB0BACB8EFA9BA7E58C1AB22 /* PPSSignatureView-dummy.m */; };
+		BEF3AD4FF5A0A22196A37FCC873D4897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369F1BECFB2F8F970171C3803B8B72D8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C980BC26C7E0CA2245F6F79366E7215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931F11F9C2B77CE328990E2A68C7F3D7;
+			remoteInfo = PPSSignatureView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DC269B0193C538B08D6B98204114C7 /* libPods-移动签章.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-移动签章.a"; path = "libPods-移动签章.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		135AA4634E015A86D76B1987A0F351FF /* Pods-移动签章.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-移动签章.release.xcconfig"; sourceTree = "<group>"; };
+		369F1BECFB2F8F970171C3803B8B72D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FB5A73118133043B184BDC75441CE46 /* Pods-移动签章-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-移动签章-dummy.m"; sourceTree = "<group>"; };
+		4175793D10DB988F91623EB9220D478E /* PPSSignatureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPSSignatureView.h; path = Source/PPSSignatureView.h; sourceTree = "<group>"; };
+		42619D929B4F80236F79965A364BC6E9 /* Pods-移动签章-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-移动签章-acknowledgements.plist"; sourceTree = "<group>"; };
+		70268366015494614DF9A729AEBA0AEB /* libPPSSignatureView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPPSSignatureView.a; path = libPPSSignatureView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79309491E733C171ADE9A22CDBE56A85 /* Pods-移动签章-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-移动签章-frameworks.sh"; sourceTree = "<group>"; };
+		862DB1432F0F27F7E1B37DCF66D9D542 /* Pods-移动签章.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-移动签章.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99ACB9D836EFEA4C288907FA39024276 /* Pods-移动签章-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-移动签章-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FFF4FC8EB0BACB8EFA9BA7E58C1AB22 /* PPSSignatureView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPSSignatureView-dummy.m"; sourceTree = "<group>"; };
+		A0516D7BCF178746842D21614B8F0160 /* PPSSignatureView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPSSignatureView-prefix.pch"; sourceTree = "<group>"; };
+		AD1F670057B8611BE9174727E4801EBA /* PPSSignatureView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPSSignatureView.m; path = Source/PPSSignatureView.m; sourceTree = "<group>"; };
+		B288C24EF3C0C3A703556DD0896F8D68 /* PPSSignatureView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPSSignatureView.xcconfig; sourceTree = "<group>"; };
+		C2FA3696AAF9095221AC54D2B276C6AA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		F0F9550F08EF212B406C83126B43D07D /* Pods-移动签章-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-移动签章-resources.sh"; sourceTree = "<group>"; };
+		F5CF6ABC3D52AB08585D24E494A9C6CE /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		502770164D79370D93CAFEC01191E548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F1258209988021C6113C24B1368FE5 /* Foundation.framework in Frameworks */,
+				26A73911944D5D226B93F94AD342CEE8 /* GLKit.framework in Frameworks */,
+				2964DFDCB3A2DA7C83A731A633195F7C /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FE7C6C85718927588184C1CDC353FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF3AD4FF5A0A22196A37FCC873D4897 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C80B4EB83C2BB3C934C34D8FD990FC46 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12CD070AED0192565761BB7AAE311D17 /* Pods-移动签章 */ = {
+			isa = PBXGroup;
+			children = (
+				99ACB9D836EFEA4C288907FA39024276 /* Pods-移动签章-acknowledgements.markdown */,
+				42619D929B4F80236F79965A364BC6E9 /* Pods-移动签章-acknowledgements.plist */,
+				3FB5A73118133043B184BDC75441CE46 /* Pods-移动签章-dummy.m */,
+				79309491E733C171ADE9A22CDBE56A85 /* Pods-移动签章-frameworks.sh */,
+				F0F9550F08EF212B406C83126B43D07D /* Pods-移动签章-resources.sh */,
+				862DB1432F0F27F7E1B37DCF66D9D542 /* Pods-移动签章.debug.xcconfig */,
+				135AA4634E015A86D76B1987A0F351FF /* Pods-移动签章.release.xcconfig */,
+			);
+			name = "Pods-移动签章";
+			path = "Target Support Files/Pods-移动签章";
+			sourceTree = "<group>";
+		};
+		555F03B1ABDDCBF35751B0426EDEF938 /* PPSSignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				4175793D10DB988F91623EB9220D478E /* PPSSignatureView.h */,
+				AD1F670057B8611BE9174727E4801EBA /* PPSSignatureView.m */,
+				724A4ACF2C23C965751EFA8808CBEE7E /* Support Files */,
+			);
+			name = PPSSignatureView;
+			path = PPSSignatureView;
+			sourceTree = "<group>";
+		};
+		724A4ACF2C23C965751EFA8808CBEE7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B288C24EF3C0C3A703556DD0896F8D68 /* PPSSignatureView.xcconfig */,
+				9FFF4FC8EB0BACB8EFA9BA7E58C1AB22 /* PPSSignatureView-dummy.m */,
+				A0516D7BCF178746842D21614B8F0160 /* PPSSignatureView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PPSSignatureView";
+			sourceTree = "<group>";
+		};
+		78F2ECF9A0F2E0763CAF6885397B85F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				555F03B1ABDDCBF35751B0426EDEF938 /* PPSSignatureView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				78F2ECF9A0F2E0763CAF6885397B85F1 /* Pods */,
+				DD2B4465E1D212779A1808C28BD663FE /* Products */,
+				BF0EA5384051CBC26935F13A8658C94F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0EA5384051CBC26935F13A8658C94F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12CD070AED0192565761BB7AAE311D17 /* Pods-移动签章 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C80B4EB83C2BB3C934C34D8FD990FC46 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				369F1BECFB2F8F970171C3803B8B72D8 /* Foundation.framework */,
+				F5CF6ABC3D52AB08585D24E494A9C6CE /* GLKit.framework */,
+				C2FA3696AAF9095221AC54D2B276C6AA /* OpenGLES.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD2B4465E1D212779A1808C28BD663FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DC269B0193C538B08D6B98204114C7 /* libPods-移动签章.a */,
+				70268366015494614DF9A729AEBA0AEB /* libPPSSignatureView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D5D10B09546987EA515E331D4FD76A8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6ACC452893F45826FC1F33848E61EF /* PPSSignatureView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		931F11F9C2B77CE328990E2A68C7F3D7 /* PPSSignatureView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579921A914B8DEE1B6965CEF4AAF6F80 /* Build configuration list for PBXNativeTarget "PPSSignatureView" */;
+			buildPhases = (
+				86E237FDE883FBE1DB4CACA094586CAA /* Sources */,
+				502770164D79370D93CAFEC01191E548 /* Frameworks */,
+				D5D10B09546987EA515E331D4FD76A8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPSSignatureView;
+			productName = PPSSignatureView;
+			productReference = 70268366015494614DF9A729AEBA0AEB /* libPPSSignatureView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA67DF08D6EEE311AE03A488F1BCDE00 /* Pods-移动签章 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E203A8CD4E406D1F0C070AD561AE6BE4 /* Build configuration list for PBXNativeTarget "Pods-移动签章" */;
+			buildPhases = (
+				62EF85C01ED93F7ECB92DDF57316F7BA /* Sources */,
+				C9FE7C6C85718927588184C1CDC353FB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E418FE48089F0E8CD234C94F67E285 /* PBXTargetDependency */,
+			);
+			name = "Pods-移动签章";
+			productName = "Pods-移动签章";
+			productReference = 01DC269B0193C538B08D6B98204114C7 /* libPods-移动签章.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DD2B4465E1D212779A1808C28BD663FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA67DF08D6EEE311AE03A488F1BCDE00 /* Pods-移动签章 */,
+				931F11F9C2B77CE328990E2A68C7F3D7 /* PPSSignatureView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62EF85C01ED93F7ECB92DDF57316F7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FC24086B5E8EBBD63734566A510A4D /* Pods-移动签章-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E237FDE883FBE1DB4CACA094586CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9FCC919996288C5F7C2F0AA214D416 /* PPSSignatureView-dummy.m in Sources */,
+				5E21908D963E5E31955B1956B8B1C8F0 /* PPSSignatureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8E418FE48089F0E8CD234C94F67E285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPSSignatureView;
+			target = 931F11F9C2B77CE328990E2A68C7F3D7 /* PPSSignatureView */;
+			targetProxy = 8C980BC26C7E0CA2245F6F79366E7215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05C614908B985E34FEF64AFDC2EA1816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B288C24EF3C0C3A703556DD0896F8D68 /* PPSSignatureView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PPSSignatureView/PPSSignatureView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52BE2038402DAD9740CDA023F413A39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862DB1432F0F27F7E1B37DCF66D9D542 /* Pods-移动签章.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FC95A51E01F6D359C512B1FCF152A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B288C24EF3C0C3A703556DD0896F8D68 /* PPSSignatureView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PPSSignatureView/PPSSignatureView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FA8D4E49D33D7C39AAB7DDB83FA75A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135AA4634E015A86D76B1987A0F351FF /* Pods-移动签章.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579921A914B8DEE1B6965CEF4AAF6F80 /* Build configuration list for PBXNativeTarget "PPSSignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C614908B985E34FEF64AFDC2EA1816 /* Debug */,
+				9FC95A51E01F6D359C512B1FCF152A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E203A8CD4E406D1F0C070AD561AE6BE4 /* Build configuration list for PBXNativeTarget "Pods-移动签章" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE2038402DAD9740CDA023F413A39B /* Debug */,
+				FA8D4E49D33D7C39AAB7DDB83FA75A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

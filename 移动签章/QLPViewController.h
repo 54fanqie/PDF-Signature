@@ -8,6 +8,6 @@
 
 #import <QuickLook/QuickLook.h>
 
-@interface QLPViewController : QLPreviewController
-
+@interface QLPViewController : UIViewController
+@property(nonatomic,strong) UIImage * signImage;
 @end
